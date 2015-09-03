@@ -1,0 +1,13 @@
+
+.light {
+  width:100px;
+  height:200px;
+  border: 2px solid black;
+  display:inline-block;
+  margin: 30px;
+}
+
+.on {
+  background:yellow;
+}
+
