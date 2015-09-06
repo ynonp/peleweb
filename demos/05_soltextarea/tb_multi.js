@@ -10,7 +10,6 @@ function rollback_text(container) {
 }
 
 
-
 function save_or_restore_text(ev) {  
   var btn       = ev.target;
   var container = this;
