@@ -7,9 +7,12 @@
 
 
 var xhr = new XMLHttpRequest();
+xhr.open('put', 'http://localhost:9292/');
 xhr.setRequestHeader("Content-Type","application/json");
 xhr.addEventListener('load', function() {
+
 });
 
-var data = { name: 'ynon' };
+var data = { count: 7 };
+  
 xhr.send(JSON.stringify(data));

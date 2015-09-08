@@ -7,7 +7,7 @@
 
 
 var xhr = new XMLHttpRequest();
-xhr.open('get', 'http://localhost:3030/flights');
+xhr.open('get', 'https://port9193.blankets.codepicnic.com');
 
 xhr.addEventListener('load', function(ev) {
   
