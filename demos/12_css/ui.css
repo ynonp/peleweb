@@ -1,0 +1,79 @@
+/**
+ * Base
+ */
+
+
+.box {
+  background: gray;
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  position:relative;
+  overflow:hidden;
+  transform: rotate(20deg);
+}
+
+
+.box button:nth-child(1) {
+  position:absolute;
+  top: 40px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background: hotpink;
+}
+
+.box button:nth-child(2) {
+  position:absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.box .info {
+  color:yellow;
+  font-size: 36px;
+  line-height: 30px;
+  position:absolute;
+  top: 135px;
+  left: 20px;
+  transition:0.5s all;
+  opacity:1;
+ }
+
+
+ .box.clicked .info {
+   left: -500px;
+ }
+
+
+
+.box button:nth-child(3) {
+  position:absolute;
+  right: 40px;
+  bottom: 40px;
+  background: darkblue;
+  width:50px;
+  height:50px;
+}
+
+
+.content {
+  overflow:hidden;
+}
+
+
+img {
+  float:left;
+}
+
+
+
+
+body {
+  font-size: 14px;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: normal;
+}
+
