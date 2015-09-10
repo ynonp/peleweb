@@ -1,5 +1,17 @@
 
 
+.box {
+  width: 320px;
+  height: 200px;
+  background:red;
+}
+
+.title {
+  background: lightblue;
+  color: darkblue;
+}
+
+
 img {
   width: 200px;
   height:200px;

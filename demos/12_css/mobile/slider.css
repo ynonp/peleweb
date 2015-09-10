@@ -1,0 +1,40 @@
+
+.box {
+  width: 320px;
+  height: 200px;
+  background:red;
+}
+
+
+img {
+  width: 200px;
+  height:200px;
+}
+
+.slider.mode-0 {
+  left:0;
+}
+
+.slider.mode-1 {
+  left:-200px;
+}
+
+.slider.mode-2 {
+  left:-400px;
+}
+
+
+.viewport {
+  width:200px;
+  height:200px;
+  overflow:hidden;
+  position:relative;
+}
+
+.slider {
+  position:absolute;  
+  width:600px;
+  height:200px;
+  transition:all 0.5s;
+}
+
