@@ -11,24 +11,9 @@
     <button ng-click="vm.clicked()">{{vm.clicks}}</button>
 
     <input type="text" ng-model="vm.email" />
-    <p>Welcome to angular: 
-      {{vm.name}} with 
-      {{vm.email}}
-      {{vm.clicks}}
-    </p>
+    <p ng-bind="vm.cps()"></p>
   </div>
 
-  <div ng-controller="mainCtrl as vm">
-    <p>Hello: {{vm.name}}</p>
-    <button ng-click="vm.clicked()">{{vm.clicks}}</button>
-
-    <input type="text" ng-model="vm.email" />
-    <p>Welcome to angular: 
-      {{vm.name}} with 
-      {{vm.email}}
-      {{vm.clicks}}
-    </p>
-  </div>
 
   <script src="angular.min.js"></script>
 
