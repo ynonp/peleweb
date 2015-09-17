@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>demo</title>
+  <script src="angular.min.js"></script>
 </head>
 <body ng-app="app">
 
@@ -12,10 +13,10 @@
 
     <input type="text" ng-model="vm.email" />
     <p ng-bind="vm.cps()"></p>
+    <p ng-show="vm.bravo" ng-cloak >Bravo!!!</p>
   </div>
 
 
-  <script src="angular.min.js"></script>
 
   <script src="demo.js"></script>
 
