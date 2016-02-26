@@ -60,6 +60,9 @@ function count(n) {
 }
 
 
+function add(x,y) {
+  return x+y;
+}
 
 
 
